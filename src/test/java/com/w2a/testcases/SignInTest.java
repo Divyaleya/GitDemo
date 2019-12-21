@@ -15,18 +15,17 @@ public class SignInTest {
 	
 	
 	@Test(dataProviderClass=Utilities.class,dataProvider="dp")
-	public void signInTest(Hashtable<String,String> data) {
+	public void signInTest(Hashtable<String,String> data) throws InterruptedException {
 		
 		if(data.get("runmode").equalsIgnoreCase("N")){
 			
 			throw new SkipException("Skipping the test as the Run mode is NO");
 			
-			
 		}
 		Page.initConfiguration();
 		SigninPage signin = Page.topNav.gotoSignIn();
 		signin.doLogin(data.get("username"), data.get("password"));
-		
+		Thread.sleep(2000);
 		
 	}
 	

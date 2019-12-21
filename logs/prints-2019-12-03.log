@@ -1,0 +1,8 @@
+16:54:42.908 [main] INFO  resources.Base - Driver is initialized
+16:55:24.593 [main] INFO  resources.Base - Assertion is successful
+16:55:25.040 [main] INFO  resources.Base - Assertion is successful for navigation bar
+16:55:36.604 [main] INFO  resources.Base - Navigates to Home Page
+16:55:46.725 [main] INFO  resources.Base - Restricted
+16:55:49.929 [main] INFO  resources.Base - Successfully Logged in
+16:55:52.311 [main] INFO  resources.Base - Navigates to Home Page
+16:55:57.336 [main] INFO  resources.Base - NonRestricted

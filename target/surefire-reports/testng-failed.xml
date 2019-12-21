@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+    <listener class-name="Academy.ExtentReportsListeners"/>
+  </listeners>
+  <test thread-count="5" name="Header Validation(failed)" verbose="0">
+    <classes>
+      <class name="Academy.ValidateHeader">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initialize"/>
+          <include name="headerValidation"/>
+        </methods>
+      </class> <!-- Academy.ValidateHeader -->
+    </classes>
+  </test> <!-- Header Validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-05T19:20:57 IST" name="Suite" finished-at="2019-12-05T19:22:48 IST" duration-ms="110937">
+    <groups>
+    </groups>
+    <test started-at="2019-12-05T19:20:57 IST" name="Validationg Navigation Bar" finished-at="2019-12-05T19:22:24 IST" duration-ms="87418">
+      <class name="Academy.ValidateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateNavigationBar@726386ed]" started-at="2019-12-05T19:20:57 IST" name="initialize" finished-at="2019-12-05T19:22:20 IST" duration-ms="83043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="navigationBarValidation()[pri:0, instance:Academy.ValidateNavigationBar@726386ed]" started-at="2019-12-05T19:22:20 IST" name="navigationBarValidation" finished-at="2019-12-05T19:22:20 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationBarValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.ValidateNavigationBar@726386ed]" started-at="2019-12-05T19:22:20 IST" name="tearDown" finished-at="2019-12-05T19:22:24 IST" duration-ms="4151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </test> <!-- Validationg Navigation Bar -->
+    <test started-at="2019-12-05T19:20:57 IST" name="HomePage Validation" finished-at="2019-12-05T19:22:48 IST" duration-ms="110937">
+      <class name="Academy.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.HomePage@596df867]" started-at="2019-12-05T19:20:57 IST" name="initialize" finished-at="2019-12-05T19:21:04 IST" duration-ms="7178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@596df867]" started-at="2019-12-05T19:21:04 IST" name="basePageNavigation" data-provider="getData" finished-at="2019-12-05T19:22:38 IST" duration-ms="93617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Restricteduser@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@596df867]" started-at="2019-12-05T19:22:38 IST" name="basePageNavigation" data-provider="getData" finished-at="2019-12-05T19:22:48 IST" duration-ms="9939" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NonRestricted@qa.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NonRestricted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Academy.HomePage@596df867]" started-at="2019-12-05T19:22:48 IST" name="tearDown" finished-at="2019-12-05T19:22:48 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- HomePage Validation -->
+  </suite> <!-- Suite -->
+</testng-results>

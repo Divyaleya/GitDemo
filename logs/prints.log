@@ -1,6 +1,0 @@
-19:22:20.475 [TestNG-tests-3] INFO  resources.Base - Assertion is successful for navigation bar
-19:22:35.029 [TestNG-tests-4] INFO  resources.Base - Restricted
-19:22:38.058 [TestNG-tests-4] INFO  resources.Base - Successfully Logged in
-19:22:40.719 [TestNG-tests-4] INFO  resources.Base - Navigates to Home Page
-19:22:44.881 [TestNG-tests-4] INFO  resources.Base - NonRestricted
-19:22:48.017 [TestNG-tests-4] INFO  resources.Base - Successfully Logged in

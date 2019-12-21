@@ -1,7 +1,0 @@
-16:37:07.144 [main] INFO  resources.Base - NonRestricted
-16:37:09.905 [main] INFO  resources.Base - Successfully Logged in
-19:18:52.744 [TestNG-tests-4] INFO  resources.Base - Driver is initialized
-19:19:20.291 [TestNG-tests-4] INFO  resources.Base - Navigates to Home Page
-19:19:20.981 [TestNG-tests-3] INFO  resources.Base - Assertion is successful for navigation bar
-19:21:04.422 [TestNG-tests-4] INFO  resources.Base - Driver is initialized
-19:22:18.700 [TestNG-tests-4] INFO  resources.Base - Navigates to Home Page

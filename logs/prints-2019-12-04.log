@@ -1,8 +1,0 @@
-17:09:29.741 [main] INFO  resources.Base - NonRestricted
-17:09:32.642 [main] INFO  resources.Base - Successfully Logged in
-21:00:41.463 [main] INFO  resources.Base - Assertion is successful for navigation bar
-21:00:54.156 [main] INFO  resources.Base - Driver is initialized
-21:01:06.699 [main] INFO  resources.Base - Navigates to Home Page
-21:01:18.832 [main] INFO  resources.Base - Restricted
-21:01:22.532 [main] INFO  resources.Base - Successfully Logged in
-21:01:24.329 [main] INFO  resources.Base - Navigates to Home Page
